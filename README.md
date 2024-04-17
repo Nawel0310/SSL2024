@@ -10,9 +10,9 @@ Este repositorio servirá como un recurso central para almacenar y compartir el 
 
 ## Estructura del Repositorio
 
-  - `-- **SSL** (*Repositorio público para la materia*)
-    - `-- **readme.md** (*Archivo front page del usuario*)
-    - `-- **00-CHelloWorld** (*Carpeta del trabajo*)
-      - `-- **readme.md** (*Archivo front page del trabajo*)
-      - `-- **hello.c** (*Archivo fuente del programa*)
-      - `-- **output.txt** (*Archivo con la salida del programa*)
+- SSL (*Repositorio público para la materia*)
+  - readme.md (*Archivo front page del usuario*)
+  - 00-CHelloWorld (*Carpeta del trabajo*)
+    - readme.md (*Archivo front page del trabajo*)
+    - hello.c (*Archivo fuente del programa*)
+    - output.txt (*Archivo con la salida del programa*)
