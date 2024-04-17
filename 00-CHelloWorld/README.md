@@ -12,7 +12,7 @@ Asegurarnos de tener estos dos componentes correctamente configurados es el prim
 ## Compilador:
 - Antes de comenzar con cualquier instalación es importante aclarar QUÉ es lo que vamos a bajar y POR QUÉ, por lo que resulta fundamental responder la siguiente pregunta: **¿Qué es un compilador y para qué sirve?**
   
-- Un compilador es un programa que traduce código escrito en un lenguaje de programación de alto nivel (en nuestro caso, el lenguaje "C") a un código de máquina el cuál es entendido y ejecutado por la computadora.
+  - Un compilador es un programa que traduce código escrito en un lenguaje de programación de alto nivel (en nuestro caso, el lenguaje "C") a un código de máquina el cuál es entendido y ejecutado por la computadora.
 
 - Considerando la definición anteriormente proporcionada, procederemos a instalar el "gcc", uno de los diversos compiladores disponibles para el lenguaje "C".
 
