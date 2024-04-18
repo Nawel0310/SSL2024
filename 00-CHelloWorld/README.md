@@ -14,8 +14,14 @@ Asegurarnos de tener estos dos componentes correctamente configurados es el prim
   
   - Un compilador es un programa que traduce código escrito en un lenguaje de programación de alto nivel (en nuestro caso, el lenguaje "C") a un código de máquina el cuál es entendido y ejecutado por la computadora.
 
-- Considerando la definición anteriormente proporcionada, procederemos a instalar el "gcc", uno de los diversos compiladores disponibles para el lenguaje "C".
+- Considerando la definición anteriormente proporcionada, procederemos a instalar el "gcc", uno de los diversos compiladores disponibles para el lenguaje "C":
+  
+- 1) Instalaremos el MinGW, el cual resumidamente, es una colección de herramientas para el desarrollo de software en Windows, lo que nos permitirá hacer uso del gcc. Para poder obtener el MinGW haremos uso de MSYS2, una terminal Unix la cual ayudará durante el proceso de instalación del MinGW, para ello [instale la terminal desde aquí](https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe)
 
+- 2) Una vez descargado, seguiremos las instrucciones proporcionadas por el instalador, sin necesidad de cambiar ninguna ruta o configuración por defecto.
+  
+- 3) Una vez terminado el proceso, debería aparecernos una terminal como la siguiente:
+- image.png
 
 # SSL2024
 Código escrito en Visual Studio Code. Compilado con gcc.
