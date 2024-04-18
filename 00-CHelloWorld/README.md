@@ -16,13 +16,21 @@ Asegurarnos de tener estos dos componentes correctamente configurados es el prim
 
 - Considerando la definición anteriormente proporcionada, procederemos a instalar el "gcc", uno de los diversos compiladores disponibles para el lenguaje "C":
   
-1) Instalaremos el MinGW, el cual resumidamente, es una colección de herramientas para el desarrollo de software en Windows, lo que nos permitirá hacer uso del gcc. Para poder obtener el MinGW haremos uso de MSYS2, una terminal Unix la cual ayudará durante el proceso de instalación del MinGW, para ello [instale la terminal desde aquí](https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe)
+1) Instalaremos el MinGW, el cual resumidamente, es una colección de herramientas para el desarrollo de software en Windows, lo que nos permitirá hacer uso del gcc. Para poder obtener el MinGW haremos uso de MSYS2, una terminal Unix la cual ayudará durante el proceso de instalación del MinGW, para ello [instale la terminal desde aquí.](https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe)
 
 2) Una vez descargado, seguiremos las instrucciones proporcionadas por el instalador, sin necesidad de cambiar ninguna ruta o configuración por defecto.
   
 3) Finalizado el proceso, debería aparecernos una terminal como la siguiente:
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/952e38c0-164c-42a4-933f-fbd14071bc62)
+Lo que debemos hacer ahora pegar el siguiente comando: pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+Este comando nos permitirá instalar el conjunto de herramientas de MinGW para su versión de 64bits, para posteriormente hacer uso del gcc.
+Una vez presionado "enter", nos mostrará el siguiente menú:
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/5c5241a7-28ea-4ea9-8a50-9b1a53cc9ca5)
+Nos permite elegir que dependencias queremos instalar, como queremos instalar todas simplemente presionamos "enter" nuevamente.
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/7e889ed2-f895-427a-b02e-787546beeaa0)
+Procedemos con la instalación colocando "Y" y luego "enter".
 
+## Variable de Entorno:
 
 # SSL2024
 Código escrito en Visual Studio Code. Compilado con gcc.
