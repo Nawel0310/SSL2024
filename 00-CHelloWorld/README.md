@@ -22,15 +22,24 @@ Asegurarnos de tener estos dos componentes correctamente configurados es el prim
   
 3) Finalizado el proceso, debería aparecernos una terminal como la siguiente:
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/952e38c0-164c-42a4-933f-fbd14071bc62)
-Lo que debemos hacer ahora pegar el siguiente comando: pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+
+Lo que debemos hacer ahora pegar el siguiente comando: <u>pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain</u>
+
 Este comando nos permitirá instalar el conjunto de herramientas de MinGW para su versión de 64bits, para posteriormente hacer uso del gcc.
 Una vez presionado "enter", nos mostrará el siguiente menú:
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/5c5241a7-28ea-4ea9-8a50-9b1a53cc9ca5)
+
 Nos permite elegir que dependencias queremos instalar, como queremos instalar todas simplemente presionamos "enter" nuevamente.
+
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/7e889ed2-f895-427a-b02e-787546beeaa0)
 Procedemos con la instalación colocando "Y" y luego "enter".
 
 ## Variable de Entorno:
+- Una vez instaladas todas las dependencias necesarias, debemos definir una "Variable de Entorno"
+
+
+
+
 
 # SSL2024
 Código escrito en Visual Studio Code. Compilado con gcc.
