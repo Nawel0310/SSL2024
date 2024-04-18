@@ -20,8 +20,7 @@ Asegurarnos de tener estos dos componentes correctamente configurados es el prim
 
 - 2) Una vez descargado, seguiremos las instrucciones proporcionadas por el instalador, sin necesidad de cambiar ninguna ruta o configuración por defecto.
   
-- 3) Una vez terminado el proceso, debería aparecernos una terminal como la siguiente:
-- image.png
+- 3) Finalizado el proceso, debería aparecernos una terminal como la siguiente:
 
 # SSL2024
 Código escrito en Visual Studio Code. Compilado con gcc.
