@@ -10,7 +10,7 @@ Asegurarnos de tener estos dos componentes correctamente configurados es el prim
 
 # Instalaciones
 ## Compilador:
-- Antes de comenzar con cualquier instalación es importante aclarar QUÉ es lo que vamos a bajar y POR QUÉ, por lo que resulta fundamental responder la siguiente pregunta: **¿Qué es un compilador y para qué sirve?**
+Antes de comenzar con cualquier instalación es importante aclarar QUÉ es lo que vamos a bajar y POR QUÉ, por lo que resulta fundamental responder la siguiente pregunta: **¿Qué es un compilador y para qué sirve?**
   
   - Un compilador es un programa que traduce código escrito en un lenguaje de programación de alto nivel (en nuestro caso, el lenguaje "C") a un código de máquina el cuál es entendido y ejecutado por la computadora.
 
@@ -35,10 +35,11 @@ Nos permite elegir que dependencias queremos instalar, como queremos instalar to
 Procedemos con la instalación colocando "Y" y luego "enter".
 
 ## Variable de Entorno:
-- Una vez instaladas todas las dependencias necesarias, debemos definir una "Variable de Entorno", sin embargo es importante tener en cuenta lo siguiente: **¿Qué es una variable de entorno y por qué debo definir una cuando instalo el MinGW?**
-  - Una variable de entorno es básicamente una variable que se configura en el sistema operativo y permite a varios programas acceder a ella en tiempo de ejecución. Estas variables suelen tener información como la configuración del sistema, rutas de acceso a directorios,etc.
-  - Para instalar MinGW, es importante definir una variable de entorno, ya que le proporcionamos al sistema la información para encontrar las herramientas propias de MinGW, en nuestro caso, la ubicación del gcc. Sin esta configuración el sistema operativo no podría encontrar las herramientas en cuestión, lo que podría reusltar en errores de compilación.
+Una vez instaladas todas las dependencias necesarias, debemos definir una "Variable de Entorno", sin embargo es importante tener en cuenta lo siguiente: **¿Qué es una variable de entorno y por qué debo definir una cuando instalo el MinGW?**
+ - Una variable de entorno es básicamente una variable que se configura en el sistema operativo y permite a varios programas acceder a ella en tiempo de ejecución. Estas variables suelen tener información como la configuración del sistema, rutas de acceso a directorios,etc.
+- Para instalar MinGW, es importante definir una variable de entorno, ya que le proporcionamos al sistema la información para encontrar las herramientas propias de MinGW, en nuestro caso, la ubicación del gcc. Sin esta configuración el sistema operativo no podría encontrar las herramientas en cuestión, lo que podría reusltar en errores de compilación.
 - Para poder agregar una variable de entorno seguimos los siguientes pasos:
+  
 1) Buscamos en Windows "Editar variables de entorno de esta cuenta".
 2) Elegimos la variable "Path" y presionamos en "Editar".
 3) Ahora presionaremos en "Nuevo" y agregamos la siguiente ruta <u>C:\msys64\ucrt64\bin</u>. Es decir, lo que hacemos acá es agregar la ubicación de la carpeta en donde se encuentra instalado el MinGW.
