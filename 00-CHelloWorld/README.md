@@ -53,6 +53,13 @@ Vamos a verificar la versión del gcc que instalamos. Para ello abrimos cualquie
 
 - En nuestro caso, tenemos la versión 8.1.0, el cual implementa el estándar C11 del lenguaje C. Esta estandarización posee características importantes al lenguaje, como la mejora en la biblioteca estándar, el soporte para alineación en memoria, tipos de datos genéricos y threads. Para mayor información consultar [este enlace](https://devdocs.io/c/11).
 
+## Instalando el IDE
+- Instalaremos un IDE, el cual resumidamente es un software que proporciona un conjunto completo de herramientas para desarrollar software en un único entorno. Lo que nos facilitara el trabajo considerablemente. En nuestro caso instalaremos Visual Studio Code.
+- Para instalar VSC seguiremos los siguientes pasos:
+  
+1) Descargaremos el programa desde [este enlace](https://code.visualstudio.com/download).
+2) Seguimos los pasos de instalación proporcionados por el instalador.
+
 
 # SSL2024
 Código escrito en Visual Studio Code. Compilado con gcc.
