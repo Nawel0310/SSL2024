@@ -16,7 +16,7 @@ Antes de comenzar con cualquier instalación es importante aclarar QUÉ es lo qu
 
 - Considerando la definición anteriormente proporcionada, procederemos a instalar el "gcc", uno de los diversos compiladores disponibles para el lenguaje "C":
   
-1) Instalaremos el MinGW, el cual resumidamente, es una colección de herramientas para el desarrollo de software en Windows, lo que nos permitirá hacer uso del gcc. Para poder obtener el MinGW haremos uso de MSYS2, una terminal Unix la cual ayudará durante el proceso de instalación del MinGW, para ello [instale la terminal desde aquí.](https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe)
+1) Instalaremos el MinGW, el cual resumidamente, es una colección de herramientas para el desarrollo de software en Windows, lo que nos permitirá hacer uso del gcc. Para poder obtener el MinGW haremos uso de MSYS2, una terminal Unix la cual ayudará durante el proceso de instalación del MinGW, para ello [instale la terminal desde aquí](https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe).
 
 2) Una vez descargado, seguiremos las instrucciones proporcionadas por el instalador, sin necesidad de cambiar ninguna ruta o configuración por defecto.
   
@@ -42,12 +42,12 @@ Una vez instaladas todas las dependencias necesarias, debemos definir una "Varia
   
 1) Buscamos en Windows "Editar variables de entorno de esta cuenta".
 2) Elegimos la variable "Path" y presionamos en "Editar".
-3) Ahora presionaremos en "Nuevo" y agregamos la siguiente ruta <u>C:\msys64\ucrt64\bin</u>. Es decir, lo que hacemos acá es agregar la ubicación de la carpeta en donde se encuentra instalado el MinGW.
+3) Ahora presionaremos en "Nuevo" y agregamos la siguiente ruta: _C:\msys64\ucrt64\bin_. Es decir, lo que hacemos acá es agregar la ubicación de la carpeta en donde se encuentra instalado el MinGW.
 4) Finalmente le damos a "Aceptar" y nuestra variable de entorno estará definida.
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/8a70033e-1148-49d7-bc49-36cb142cd62a)
 
 ## Verificando la versión:
-Vamos a verificar la versión del gcc que instalamos. Para ello abrimos cualquier terminal (en este caso, el CMD de Windows), e introducimos el comando: <u>gcc --version</u>.
+Vamos a verificar la versión del gcc que instalamos. Para ello abrimos cualquier terminal (en este caso, el CMD de Windows), e introducimos el comando: _gcc --version_.
 
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/3b4cdcad-5076-434d-848a-4bf77d59d180)
 
