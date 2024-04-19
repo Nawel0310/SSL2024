@@ -35,8 +35,11 @@ Nos permite elegir que dependencias queremos instalar, como queremos instalar to
 Procedemos con la instalación colocando "Y" y luego "enter".
 
 ## Variable de Entorno:
-- Una vez instaladas todas las dependencias necesarias, debemos definir una "Variable de Entorno"
-
+- Una vez instaladas todas las dependencias necesarias, debemos definir una "Variable de Entorno", sin embargo es importante tener en cuenta lo siguiente: **¿Qué es una variable de entorno y por qué debo definir una cuando instalo el MinGW?**
+  - Una variable de entorno es básicamente una variable que se configura en el sistema operativo y permite a varios programas acceder a ella en tiempo de ejecución. Estas variables suelen tener información como la configuración del sistema, rutas de acceso a directorios,etc.
+  - Para instalar MinGW, es importante definir una variable de entorno, ya que le proporcionamos al sistema la información para encontrar las herramientas propias de MinGW, en nuestro caso, la ubicación del gcc. Sin esta configuración el sistema operativo no podría encontrar las herramientas en cuestión, lo que podría reusltar en errores de compilación.
+- Para poder agregar una variable de entorno seguimos los siguientes pasos:
+- 1) 
 
 
 
