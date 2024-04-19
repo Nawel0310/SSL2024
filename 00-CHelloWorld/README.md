@@ -39,7 +39,13 @@ Procedemos con la instalación colocando "Y" y luego "enter".
   - Una variable de entorno es básicamente una variable que se configura en el sistema operativo y permite a varios programas acceder a ella en tiempo de ejecución. Estas variables suelen tener información como la configuración del sistema, rutas de acceso a directorios,etc.
   - Para instalar MinGW, es importante definir una variable de entorno, ya que le proporcionamos al sistema la información para encontrar las herramientas propias de MinGW, en nuestro caso, la ubicación del gcc. Sin esta configuración el sistema operativo no podría encontrar las herramientas en cuestión, lo que podría reusltar en errores de compilación.
 - Para poder agregar una variable de entorno seguimos los siguientes pasos:
-- 1) 
+1) Buscamos en Windows "Editar variables de entorno de esta cuenta".
+2) Elegimos la variable "Path" y presionamos en "Editar".
+3) Ahora presionaremos en "Nuevo" y agregamos la siguiente ruta <u>C:\msys64\ucrt64\bin</u>. Es decir, lo que hacemos acá es agregar la ubicación de la carpeta en donde se encuentra instalado el MinGW.
+4) Finalmente le damos a "Aceptar" y nuestra variable de entorno estará definida.
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/8a70033e-1148-49d7-bc49-36cb142cd62a)
+
+## Verificando la versión:
 
 
 
