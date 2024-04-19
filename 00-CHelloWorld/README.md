@@ -48,8 +48,10 @@ Una vez instaladas todas las dependencias necesarias, debemos definir una "Varia
 
 ## Verificando la versión:
 Vamos a verificar la versión del gcc que instalamos. Para ello abrimos cualquier terminal (en este caso, el CMD de Windows), e introducimos el comando: <u>gcc --version</u>.
+
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/3b4cdcad-5076-434d-848a-4bf77d59d180)
-- En nuestro caso, tenemos la versión 8.1.0, el cual implementa el estándar C11 del lenguaje C. Esta estandarización posee características importantes al lenguaje, como la mejora en la biblioteca estándar, el soporte para alineación en memoria, tipos de datos genéricos y threads. Para mayor información consultar [este enlace.](https://devdocs.io/c/11).
+
+- En nuestro caso, tenemos la versión 8.1.0, el cual implementa el estándar C11 del lenguaje C. Esta estandarización posee características importantes al lenguaje, como la mejora en la biblioteca estándar, el soporte para alineación en memoria, tipos de datos genéricos y threads. Para mayor información consultar [este enlace](https://devdocs.io/c/11).
 
 
 # SSL2024
