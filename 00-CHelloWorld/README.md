@@ -68,11 +68,12 @@ Con todo esto ya configurado y listo, procederemos a ejecutar nuestro programa, 
 ## Compilando el Programa
 Finalmente vamos a ejecutar nuestro "Hola Mundo":
 - Lo primero será clonar este repositorio de manera local. Para ello nos ubicaremos en el directorio en donde querramos clonar nuestro proyecto (con el comando "cd <ruta>" podemos especificar en que ruta pararnos). Hecho esto haremos uso del comando git clone <URL de este repositorio>
-- IMPORTANTE: Debemos estar parados en la rama "master" para poder visualizar de manerca correcta nuestro proyecto. Si no lo estamos, podemos usar el comando "git checkout master" y ya estaríamos en la rama correspondiente.
+
+IMPORTANTE: Debemos estar parados en la rama "master" para poder visualizar de manerca correcta nuestro proyecto. Si no lo estamos, podemos usar el comando "git checkout master" y ya estaríamos en la rama correspondiente.
 Si seguimos los pasos de manera correcta, deberíamos estar viendo lo siguinte en nuestro IDE:
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/b81392bf-fbe8-43c1-8a2e-6bda2a1cf3ad)
 
-# Ahora vamos a compilar el programa.
+Ahora vamos a compilar el programa.
 - Para ello, hacemos click en el botón superior de "Run C/C++ File":
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/95012d90-1bca-42da-afdb-5cf6d7738822)
 - Nos pedirá elegir un compilador. Elegiremos el "gcc" que instalamos previamente (suele ser la primera opción):
@@ -81,9 +82,14 @@ Si seguimos los pasos de manera correcta, deberíamos estar viendo lo siguinte e
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/cf281641-d63f-41e7-8cc4-f85b52e4116e)
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/39b48bd4-98bc-4535-bb15-0072b3cff446)
 
+IMPORTANTE: Al compilar el proyecto por primera vez se creará un ejecutable llamado "hello.exe". Este archivo contiene todas las instrucciones en lenguajes de máquina para que nuestra computadora pueda llevar a cabo su ejecución. Inclusive podemos ejecutar este programa únicamente desde una terminal, por ejemplo con el CMD de Windows:
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/7c083e86-6e9a-4462-b67d-8d49d6c1574c)
 
-# SSL2024
-Código escrito en Visual Studio Code. Compilado con gcc.
+
+
+
+
+
 
 1) Salida del programa correcta:
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/326de0b8-01d5-46e8-890e-1c8eacc47ad0)
