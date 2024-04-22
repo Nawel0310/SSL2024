@@ -67,7 +67,7 @@ Con todo esto ya configurado y listo, procederemos a ejecutar nuestro programa, 
 
 ## Compilando el Programa
 Finalmente vamos a ejecutar nuestro "Hola Mundo":
-- Lo primero será clonar este repositorio de manera local. Para ello nos ubicaremos en el directorio en donde querramos clonar nuestro proyecto (con el comando "cd <ruta>" podemos especificar en que ruta pararnos). Hecho esto haremos uso del comando git clone <URL de este repositorio>
+- Lo primero será clonar este repositorio de manera local. Para ello nos ubicaremos en el directorio en donde querramos clonar nuestro proyecto con el comando "cd /directorio/.." podemos especificar en que ruta pararnos, hecho esto haremos uso del comando "git clone URL_de_este_repositorio" (reemplazar tanto el directorio como la URL por los indicados).
 
 IMPORTANTE: Debemos estar parados en la rama "master" para poder visualizar de manerca correcta nuestro proyecto. Si no lo estamos, podemos usar el comando "git checkout master" y ya estaríamos en la rama correspondiente.
 Si seguimos los pasos de manera correcta, deberíamos estar viendo lo siguinte en nuestro IDE:
