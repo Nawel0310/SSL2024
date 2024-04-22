@@ -21,13 +21,13 @@ Antes de comenzar con cualquier instalación es importante aclarar QUÉ es lo qu
 2) Una vez descargado, seguiremos las instrucciones proporcionadas por el instalador, sin necesidad de cambiar ninguna ruta o configuración por defecto.
   
 3) Finalizado el proceso, debería aparecernos una terminal como la siguiente:
-![image](https://github.com/Nawel0310/SSL2024/assets/131374182/952e38c0-164c-42a4-933f-fbd14071bc62)
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/d8d538d6-05cc-4fea-9c73-166471c3c212)
 
 Lo que debemos hacer ahora pegar el siguiente comando: <u>pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain</u>
 
 Este comando nos permitirá instalar el conjunto de herramientas de MinGW para su versión de 64bits, para posteriormente hacer uso del gcc.
 Una vez presionado "enter", nos mostrará el siguiente menú:
-![image](https://github.com/Nawel0310/SSL2024/assets/131374182/5c5241a7-28ea-4ea9-8a50-9b1a53cc9ca5)
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/f78dbf38-4e6c-4673-b58a-6622916e93f6)
 
 Nos permite elegir que dependencias queremos instalar, como queremos instalar todas simplemente presionamos "enter" nuevamente.
 
@@ -47,7 +47,7 @@ Una vez instaladas todas las dependencias necesarias, debemos definir una "Varia
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/8a70033e-1148-49d7-bc49-36cb142cd62a)
 
 ## Verificando la versión:
-Vamos a verificar la versión del gcc que instalamos. Para ello abrimos cualquier terminal (en este caso, el CMD de Windows), e introducimos el comando: _gcc --version_.
+- Vamos a verificar la versión del gcc que instalamos. Para ello abrimos cualquier terminal (en este caso, el CMD de Windows), e introducimos el comando: _gcc --version_.
 
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/3b4cdcad-5076-434d-848a-4bf77d59d180)
 
@@ -86,5 +86,5 @@ IMPORTANTE: Al compilar el proyecto por primera vez se creará un ejecutable lla
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/7c083e86-6e9a-4462-b67d-8d49d6c1574c)
 
 ## Salida mediante un .txt
-También existe la posibilidad redirigir la salida de nuestro programa a un archivo con extensión ".txt". Para ello, desde cualquier terminal, nos paramos en la ruta de nuestro proyecto y ejecutamos el comando "hello.exe > output.txt". El operador ">" indica a dponde debe redirigirse la salida del programa, (no importa si borramos este archivo, puesto que al momento de ejecutar el comando para redirigir la salida, en caso de que no exista, se creará).
+- También existe la posibilidad redirigir la salida de nuestro programa a un archivo con extensión ".txt". Para ello, desde cualquier terminal, nos paramos en la ruta de nuestro proyecto y ejecutamos el comando "hello.exe > output.txt". El operador ">" indica a dponde debe redirigirse la salida del programa, (no importa si borramos este archivo, puesto que al momento de ejecutar el comando para redirigir la salida, en caso de que no exista, se creará).
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/311066f1-13b4-4645-afc7-0e877161994c)
