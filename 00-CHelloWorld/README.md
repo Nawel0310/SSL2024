@@ -59,6 +59,27 @@ Vamos a verificar la versión del gcc que instalamos. Para ello abrimos cualquie
   
 1) Descargaremos el programa desde [este enlace](https://code.visualstudio.com/download).
 2) Seguimos los pasos de instalación proporcionados por el instalador.
+Si seguimos todos los pasos correctamente, deberíamos ver una interfaz similar a la siguiente:
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/57af47df-dd1f-4f73-82f1-456555a72b5a)
+3) Una vez instalado el IDE, nos iremos a la parte de extensiones (Ctrl + Shift + X) e instalaremos la extensión "C/C++ extension for VS Code", la cual es una herramienta que nos proporcionan un conjunto de características que permiten facilitar el desarrollo en programas hechos con C y C++ (permitiendonos resaltar la sintaxis, autocompletado, debuggear, integración con el gcc, etc).
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/53f5a6ea-d0bf-4997-9480-ae6cc23f98ec)
+Con todo esto ya configurado y listo, procederemos a ejecutar nuestro programa, tanto en consola como en un archivo de texto.
+
+## Compilando el Programa
+Finalmente vamos a ejecutar nuestro "Hola Mundo":
+- Lo primero será clonar este repositorio de manera local. Para ello nos ubicaremos en el directorio en donde querramos clonar nuestro proyecto (con el comando "cd <ruta>" podemos especificar en que ruta pararnos). Hecho esto haremos uso del comando git clone <URL de este repositorio>
+- IMPORTANTE: Debemos estar parados en la rama "master" para poder visualizar de manerca correcta nuestro proyecto. Si no lo estamos, podemos usar el comando "git checkout master" y ya estaríamos en la rama correspondiente.
+Si seguimos los pasos de manera correcta, deberíamos estar viendo lo siguinte en nuestro IDE:
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/b81392bf-fbe8-43c1-8a2e-6bda2a1cf3ad)
+
+# Ahora vamos a compilar el programa.
+- Para ello, hacemos click en el botón superior de "Run C/C++ File":
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/95012d90-1bca-42da-afdb-5cf6d7738822)
+- Nos pedirá elegir un compilador. Elegiremos el "gcc" que instalamos previamente (suele ser la primera opción):
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/590c0c26-a9a2-460e-9ba0-9e9e5f6de4a6)
+- Ahora compilara nuestro programa y si todo salió de manera correcta, la consola nos mostrará dos mensajes, uno de confirmación y otro con la salida esperada:
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/cf281641-d63f-41e7-8cc4-f85b52e4116e)
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/39b48bd4-98bc-4535-bb15-0072b3cff446)
 
 
 # SSL2024
