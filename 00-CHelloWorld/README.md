@@ -85,14 +85,6 @@ Ahora vamos a compilar el programa.
 IMPORTANTE: Al compilar el proyecto por primera vez se creará un ejecutable llamado "hello.exe". Este archivo contiene todas las instrucciones en lenguajes de máquina para que nuestra computadora pueda llevar a cabo su ejecución. Inclusive podemos ejecutar este programa únicamente desde una terminal, por ejemplo con el CMD de Windows:
 ![image](https://github.com/Nawel0310/SSL2024/assets/131374182/7c083e86-6e9a-4462-b67d-8d49d6c1574c)
 
-
-
-
-
-
-
-1) Salida del programa correcta:
-![image](https://github.com/Nawel0310/SSL2024/assets/131374182/326de0b8-01d5-46e8-890e-1c8eacc47ad0)
-
-2) Salida del programa mediante un output.txt:
-![image](https://github.com/Nawel0310/SSL2024/assets/131374182/5482e5b5-5cbc-40c3-a2ec-a3302a4b0396)
+## Salida mediante un .txt
+También existe la posibilidad redirigir la salida de nuestro programa a un archivo con extensión ".txt". Para ello, desde cualquier terminal, nos paramos en la ruta de nuestro proyecto y ejecutamos el comando "hello.exe > output.txt". El operador ">" indica a dponde debe redirigirse la salida del programa, (no importa si borramos este archivo, puesto que al momento de ejecutar el comando para redirigir la salida, en caso de que no exista, se creará).
+![image](https://github.com/Nawel0310/SSL2024/assets/131374182/311066f1-13b4-4645-afc7-0e877161994c)
